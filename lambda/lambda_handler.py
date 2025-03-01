@@ -12,7 +12,7 @@ SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:975049960469:fraud-alerts-topic"  # Repla
 S3_BUCKET_NAME = "creditcardtransactionsstore"  # S3 bucket for storing transactions
 
 def lambda_handler(event, context):
-    flask_url = "http://34.201.38.249:5000/predict"
+    flask_url = "http://<ec2-public-ip>/predict"
 
     try:
         partition = list(event['records'].keys())[0]
