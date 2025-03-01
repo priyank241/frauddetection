@@ -1,7 +1,3 @@
-Here’s a **detailed `README.md`** for your **fraud detection system**. It includes an overview, setup instructions, deployment steps, and usage guidelines.
-
----
-
 ## **🚀 Credit Card Fraud Detection System**
 This project implements a **real-time fraud detection system** using **machine learning and Flask**, with AWS **Lambda** and **Docker**.
 
