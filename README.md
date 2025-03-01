@@ -1,5 +1,6 @@
 ## **🚀 Credit Card Fraud Detection System**
 This project implements a **real-time fraud detection system** using **machine learning and Flask**, with AWS **Lambda** and **Docker**.
+![Credit_Kafka_Final drawio](https://github.com/user-attachments/assets/fc68511f-852d-476a-87d2-772f20d7dbbc)
 
 **Key Features:**
 - 🏦 **Credit card transaction fraud detection**
