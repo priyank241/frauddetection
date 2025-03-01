@@ -72,7 +72,7 @@ def store_transaction_s3(transaction_data):
     try:
         # Generate unique file key based on timestamp
         timestamp = transaction_data["timestamp"][:10]  # YYYY-MM-DD
-        file_key = f"transactions/{timestamp}/txn_{transaction_data.get('txn_id', 'unknown')}.json"
+        file_key = f"transactions/{timestamp}/txn_{transaction_data.get('trans_num', 'unknown')}.json"
 
         # Upload transaction JSON to S3
         s3_client.put_object(
